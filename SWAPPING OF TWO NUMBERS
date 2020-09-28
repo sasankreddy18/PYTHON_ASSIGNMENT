@@ -1,0 +1,16 @@
+7.SWAPPING OF TWO NUMBERS
+
+#python 2.7.15
+c=float(input("enter c "))
+d=float(input("enter d "))
+print("before swapping c,d are",c,d)
+t=c
+c=d
+d=t
+print("after swapping c,d are",c,d)
+
+OUTPUT:
+enter c 5
+enter d 6
+('before swapping c,d are', 5, 6)
+('after swapping c,d are', 6, 5)
