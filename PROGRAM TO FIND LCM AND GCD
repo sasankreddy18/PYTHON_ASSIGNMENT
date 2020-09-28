@@ -1,0 +1,19 @@
+2.PROGRAM TO FIND LCM AND GCD
+
+def find_gcd(a,b):
+    gcd = 1
+    for i in range(1,a+1):
+        if a%i==0 and b%i==0:
+           gcd = i
+    return gcd
+first = int(input('Enter first number: '))
+second = int(input('Enter second number: '))
+print('HCF or GCD of %d and %d is %d' %(first, second, find_gcd(first, second)))
+lcm = first * second / find_gcd(first, second)
+print('LCM of %d and %d is %d' %(first, second, lcm))
+
+OUTPUT:
+Enter first number: 12
+Enter second number: 8
+HCF or GCD of 12 and 8 is 4
+LCM of 12 and 8 is 24
