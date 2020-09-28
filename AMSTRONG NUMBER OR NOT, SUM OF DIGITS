@@ -1,0 +1,21 @@
+6.python program to check sum of digits and check it is amstrong or not
+
+num = int(input("Enter a number: "))  
+summ= 0  
+temp = num  
+tot=0 
+while temp > 0:  
+   digit = temp % 10  
+   summ+= digit ** 3  
+   tot+=digit
+   temp //= 10  
+print("sum of digits",tot)  
+if num == summ:  
+   print(num,"is an Armstrong number")  
+else:  
+   print(num,"is not an Armstrong number")  
+
+OUTPUT:
+Enter a number: 153
+('sum of digits', 9)
+(153, 'is an Armstrong number')
