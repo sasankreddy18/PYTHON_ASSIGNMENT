@@ -1,0 +1,15 @@
+#3.CHECK WHETHER THE NUMBER IS PERFECT OR NOT
+
+n=int(input("enter a number"))
+num=0
+for i in range(1,n):
+        if n%i==0:
+            num+=i
+if(n==num):
+  print(n," is perfect")
+else:
+  print(n," is not perfect")
+
+OUTPUT:
+enter a number6
+(6, 'is perfect')
