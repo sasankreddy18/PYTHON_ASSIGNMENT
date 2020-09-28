@@ -1,0 +1,17 @@
+#1.SMALLEST OF THREE NUMBERS
+
+a=int(input("enter a"))
+b=int(input("enter b"))
+c=int(input("enter c"))
+if(a <= b and a <= c): 
+    print(a, "is the smallest") 
+elif(b <= a and b <= c): 
+    print(b, "is the smallest") 
+else: 
+    print(c, "is the smallest")
+
+OUTPUT:
+enter a17
+enter b10
+enter c0
+(0, 'is the smallest')
